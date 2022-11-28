@@ -1,0 +1,36 @@
+# Logs
+upload_web/logs
+upload_web/*.log
+upload_web/npm-debug.log*
+upload_web/yarn-debug.log*
+upload_web/yarn-error.log*
+upload_web/pnpm-debug.log*
+upload_web/lerna-debug.log*
+
+upload_web/node_modules
+upload_web/.DS_Store
+upload_web/dist
+upload_web/dist-ssr
+upload_web/coverage
+upload_web/*.local
+
+upload_web/cypress/videos/
+upload_web/cypress/screenshots/
+
+# Editor directories and files
+upload_web/.vscode/*
+upload_web/!.vscode/extensions.json
+upload_web/.idea
+upload_web/*.suo
+upload_web/*.ntvs*
+upload_web/*.njsproj
+upload_web/*.sln
+upload_web/*.sw?
+
+upload_api/__pycache__
+upload_api/*.pyc
+
+upload_api/.vscode/
+upload_api/*.sqlite3
+upload_api/.env
+upload_api/.DS_Store
